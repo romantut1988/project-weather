@@ -1,6 +1,7 @@
-import React from "react";
-import { GlobalSvgSelector } from "../../../../assets/icons/global/GlobalSvgSelector";
-import { Day } from "./Days";
+import React from 'react';
+import { GlobalSvgSelector } from '../../../../assets/icons/global/GlobalSvgSelector';
+import { Day } from './Days';
+
 import s from './Days.module.scss';
 
 interface Props {
