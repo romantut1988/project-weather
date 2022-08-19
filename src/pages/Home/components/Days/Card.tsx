@@ -16,6 +16,7 @@ export const Card = ({ day }: Props) => {
       <div className={s.img}>
         <GlobalSvgSelector id={day.icon_id} />
       </div>
+      
       <div className={s.temp__day}>{day.temp_day}</div>
       <div className={s.temp__night}>{day.temp_day}</div>
       <div className={s.info}>{day.info}</div>
